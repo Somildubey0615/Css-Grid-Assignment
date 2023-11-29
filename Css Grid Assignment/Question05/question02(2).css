@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: center; 
+    gap: 10px;
+  }
+
+  .grid-item {
+    background-color: rgb(108, 19, 114);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    justify-self: start; 
+  }
